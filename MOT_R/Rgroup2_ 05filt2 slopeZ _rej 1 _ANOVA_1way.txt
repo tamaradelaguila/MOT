@@ -1,0 +1,77 @@
+[1] "source file: group2_Zscore_long_format_forR_group_05filt2_circle_rej1_11roi.xls"
+[1] "analysis=  1way"
+[1] "measure=  slopeZ"
+[1] "05filt2 slopeZ rej 1"
+[1] "ANOVA: ANOVA TABLE"
+
+
+Table: ANOVA Table (type III tests) - lo mismo, mas bonito
+
+|Effect | DFn| DFd|      F|  p|p<.05 |   pes|
+|:------|---:|---:|------:|--:|:-----|-----:|
+|roi    |  10| 148| 30.666|  0|*     | 0.674|
+[1] "Complete ANOVA object to check Mauchly and Sphericity corrections"
+[1] "POST-HOC with Bonferroni adjustment"
+[1] "POST-HOC: PAIRWISE COMPARISONS BETWEEN ROI LEVELS  (non paired)"
+
+
+Table: POST-HOC: PAIRWISE COMPARISONS BETWEEN ROI LEVELS
+
+|.y.   |group1 |group2 | n1| n2|        p|p.signif |    p.adj|p.adj.signif |
+|:-----|:------|:------|--:|--:|--------:|:--------|--------:|:------------|
+|value |dldm_c |dm1_c  | 15| 12| 5.45e-02|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm1_i  | 15| 12| 4.80e-02|*        | 1.00e+00|ns           |
+|value |dm1_c  |dm1_i  | 12| 12| 9.58e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm2_c  | 15| 15| 0.00e+00|****     | 1.00e-06|****         |
+|value |dm1_c  |dm2_c  | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_i  |dm2_c  | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dldm_c |dm2_i  | 15| 15| 2.77e-03|**       | 1.52e-01|ns           |
+|value |dm1_c  |dm2_i  | 12| 15| 3.70e-06|****     | 2.04e-04|***          |
+|value |dm1_i  |dm2_i  | 12| 15| 2.90e-06|****     | 1.60e-04|***          |
+|value |dm2_c  |dm2_i  | 15| 15| 4.22e-03|**       | 2.32e-01|ns           |
+|value |dldm_c |dm3_c  | 15| 15| 3.25e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm3_c  | 12| 15| 4.71e-03|**       | 2.59e-01|ns           |
+|value |dm1_i  |dm3_c  | 12| 15| 3.98e-03|**       | 2.19e-01|ns           |
+|value |dm2_c  |dm3_c  | 15| 15| 1.90e-06|****     | 1.04e-04|***          |
+|value |dm2_i  |dm3_c  | 15| 15| 4.16e-02|*        | 1.00e+00|ns           |
+|value |dldm_c |dm3_i  | 15| 15| 5.86e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm3_i  | 12| 15| 1.53e-02|*        | 8.44e-01|ns           |
+|value |dm1_i  |dm3_i  | 12| 15| 1.32e-02|*        | 7.26e-01|ns           |
+|value |dm2_c  |dm3_i  | 15| 15| 3.00e-07|****     | 1.40e-05|****         |
+|value |dm2_i  |dm3_i  | 15| 15| 1.36e-02|*        | 7.47e-01|ns           |
+|value |dm3_c  |dm3_i  | 15| 15| 6.59e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4l_c | 15| 15| 2.50e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm4l_c | 12| 15| 2.92e-03|**       | 1.61e-01|ns           |
+|value |dm1_i  |dm4l_c | 12| 15| 2.45e-03|**       | 1.35e-01|ns           |
+|value |dm2_c  |dm4l_c | 15| 15| 3.90e-06|****     | 2.15e-04|***          |
+|value |dm2_i  |dm4l_c | 15| 15| 6.08e-02|ns       | 1.00e+00|ns           |
+|value |dm3_c  |dm4l_c | 15| 15| 8.68e-01|ns       | 1.00e+00|ns           |
+|value |dm3_i  |dm4l_c | 15| 15| 5.44e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4l_i | 15| 15| 8.70e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm4l_i | 12| 15| 3.81e-02|*        | 1.00e+00|ns           |
+|value |dm1_i  |dm4l_i | 12| 15| 3.33e-02|*        | 1.00e+00|ns           |
+|value |dm2_c  |dm4l_i | 15| 15| 0.00e+00|****     | 2.30e-06|****         |
+|value |dm2_i  |dm4l_i | 15| 15| 4.57e-03|**       | 2.51e-01|ns           |
+|value |dm3_c  |dm4l_i | 15| 15| 4.11e-01|ns       | 1.00e+00|ns           |
+|value |dm3_i  |dm4l_i | 15| 15| 7.03e-01|ns       | 1.00e+00|ns           |
+|value |dm4l_c |dm4l_i | 15| 15| 3.23e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_c  |dm4m_c | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_i  |dm4m_c | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm2_c  |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm2_i  |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm3_c  |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm3_i  |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4l_c |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4l_i |dm4m_c | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dldm_c |dm4m_i | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_c  |dm4m_i | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_i  |dm4m_i | 12| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm2_c  |dm4m_i | 15| 15| 6.89e-03|**       | 3.79e-01|ns           |
+|value |dm2_i  |dm4m_i | 15| 15| 1.00e-07|****     | 4.50e-06|****         |
+|value |dm3_c  |dm4m_i | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm3_i  |dm4m_i | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4l_c |dm4m_i | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4l_i |dm4m_i | 15| 15| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4m_c |dm4m_i | 15| 15| 2.00e-07|****     | 9.70e-06|****         |
+[1] "POST-HOC: PAIRWISE COMPARISONS BETWEEN mA LEVELS (non paired)"

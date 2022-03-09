@@ -1,0 +1,77 @@
+[1] "source file: group2_Zscore_long_format_forR_group_04filt1_circle_rej1_11roi.xls"
+[1] "analysis=  1way"
+[1] "measure=  peakZ"
+[1] "04filt1 peakZ rej 1"
+[1] "ANOVA: ANOVA TABLE"
+
+
+Table: ANOVA Table (type III tests) - lo mismo, mas bonito
+
+|Effect | DFn| DFd|      F|  p|p<.05 |   pes|
+|:------|---:|---:|------:|--:|:-----|-----:|
+|roi    |  10| 201| 10.721|  0|*     | 0.348|
+[1] "Complete ANOVA object to check Mauchly and Sphericity corrections"
+[1] "POST-HOC with Bonferroni adjustment"
+[1] "POST-HOC: PAIRWISE COMPARISONS BETWEEN ROI LEVELS  (non paired)"
+
+
+Table: POST-HOC: PAIRWISE COMPARISONS BETWEEN ROI LEVELS
+
+|.y.   |group1 |group2 | n1| n2|        p|p.signif |    p.adj|p.adj.signif |
+|:-----|:------|:------|--:|--:|--------:|:--------|--------:|:------------|
+|value |dldm_c |dm1_c  | 20| 16| 3.14e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm1_i  | 20| 16| 4.54e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm1_i  | 16| 16| 8.06e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm2_c  | 20| 20| 2.28e-03|**       | 1.25e-01|ns           |
+|value |dm1_c  |dm2_c  | 16| 20| 1.20e-04|***      | 6.58e-03|**           |
+|value |dm1_i  |dm2_c  | 16| 20| 3.17e-04|***      | 1.75e-02|*            |
+|value |dldm_c |dm2_i  | 20| 20| 4.91e-02|*        | 1.00e+00|ns           |
+|value |dm1_c  |dm2_i  | 16| 20| 4.47e-03|**       | 2.46e-01|ns           |
+|value |dm1_i  |dm2_i  | 16| 20| 9.56e-03|**       | 5.26e-01|ns           |
+|value |dm2_c  |dm2_i  | 20| 20| 2.68e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm3_c  | 20| 20| 2.99e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm3_c  | 16| 20| 4.79e-02|*        | 1.00e+00|ns           |
+|value |dm1_i  |dm3_c  | 16| 20| 8.51e-02|ns       | 1.00e+00|ns           |
+|value |dm2_c  |dm3_c  | 20| 20| 4.16e-02|*        | 1.00e+00|ns           |
+|value |dm2_i  |dm3_c  | 20| 20| 3.49e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm3_i  | 20| 20| 2.53e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm3_i  | 16| 20| 3.78e-02|*        | 1.00e+00|ns           |
+|value |dm1_i  |dm3_i  | 16| 20| 6.85e-02|ns       | 1.00e+00|ns           |
+|value |dm2_c  |dm3_i  | 20| 20| 5.33e-02|ns       | 1.00e+00|ns           |
+|value |dm2_i  |dm3_i  | 20| 20| 4.06e-01|ns       | 1.00e+00|ns           |
+|value |dm3_c  |dm3_i  | 20| 20| 9.15e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4l_c | 20| 20| 1.68e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm4l_c | 16| 20| 2.17e-02|*        | 1.00e+00|ns           |
+|value |dm1_i  |dm4l_c | 16| 20| 4.13e-02|*        | 1.00e+00|ns           |
+|value |dm2_c  |dm4l_c | 20| 20| 8.91e-02|ns       | 1.00e+00|ns           |
+|value |dm2_i  |dm4l_c | 20| 20| 5.51e-01|ns       | 1.00e+00|ns           |
+|value |dm3_c  |dm4l_c | 20| 20| 7.32e-01|ns       | 1.00e+00|ns           |
+|value |dm3_i  |dm4l_c | 20| 20| 8.14e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4l_i | 20| 20| 3.13e-01|ns       | 1.00e+00|ns           |
+|value |dm1_c  |dm4l_i | 16| 20| 5.11e-02|ns       | 1.00e+00|ns           |
+|value |dm1_i  |dm4l_i | 16| 20| 9.02e-02|ns       | 1.00e+00|ns           |
+|value |dm2_c  |dm4l_i | 20| 20| 3.88e-02|*        | 1.00e+00|ns           |
+|value |dm2_i  |dm4l_i | 20| 20| 3.34e-01|ns       | 1.00e+00|ns           |
+|value |dm3_c  |dm4l_i | 20| 20| 9.77e-01|ns       | 1.00e+00|ns           |
+|value |dm3_i  |dm4l_i | 20| 20| 8.92e-01|ns       | 1.00e+00|ns           |
+|value |dm4l_c |dm4l_i | 20| 20| 7.10e-01|ns       | 1.00e+00|ns           |
+|value |dldm_c |dm4m_c | 20| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_c  |dm4m_c | 16| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm1_i  |dm4m_c | 16| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm2_c  |dm4m_c | 20| 20| 6.00e-06|****     | 3.31e-04|***          |
+|value |dm2_i  |dm4m_c | 20| 20| 0.00e+00|****     | 1.70e-06|****         |
+|value |dm3_c  |dm4m_c | 20| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm3_i  |dm4m_c | 20| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dm4l_c |dm4m_c | 20| 20| 0.00e+00|****     | 1.00e-07|****         |
+|value |dm4l_i |dm4m_c | 20| 20| 0.00e+00|****     | 0.00e+00|****         |
+|value |dldm_c |dm4m_i | 20| 20| 1.40e-06|****     | 7.42e-05|****         |
+|value |dm1_c  |dm4m_i | 16| 20| 0.00e+00|****     | 2.20e-06|****         |
+|value |dm1_i  |dm4m_i | 16| 20| 1.00e-07|****     | 8.20e-06|****         |
+|value |dm2_c  |dm4m_i | 20| 20| 6.00e-02|ns       | 1.00e+00|ns           |
+|value |dm2_i  |dm4m_i | 20| 20| 3.01e-03|**       | 1.66e-01|ns           |
+|value |dm3_c  |dm4m_i | 20| 20| 1.11e-04|***      | 6.13e-03|**           |
+|value |dm3_i  |dm4m_i | 20| 20| 1.68e-04|***      | 9.23e-03|**           |
+|value |dm4l_c |dm4m_i | 20| 20| 4.01e-04|***      | 2.21e-02|*            |
+|value |dm4l_i |dm4m_i | 20| 20| 9.93e-05|****     | 5.46e-03|**           |
+|value |dm4m_c |dm4m_i | 20| 20| 6.35e-03|**       | 3.49e-01|ns           |
+[1] "POST-HOC: PAIRWISE COMPARISONS BETWEEN mA LEVELS (non paired)"
